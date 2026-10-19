@@ -1,0 +1,36 @@
+﻿# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Block real production documents
+*.docx
+*.docm
+*.xlsx
+!sample_data/Master_Tracker_Template.xlsx
+
+# Logs, OS, and IDE artifacts
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.antigravity/
+.idea/
+
+# Block real config (allow example)
+config/settings.json
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Pytest cache & synthetic batch outputs
+.pytest_cache/
+sample_data/raw_batch/
+sample_data/cleaned_batch/

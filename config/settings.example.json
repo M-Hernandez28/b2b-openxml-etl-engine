@@ -1,0 +1,7 @@
+﻿{
+  "input_dir": "./sample_data/raw_batch",
+  "output_dir": "./sample_data/cleaned_batch",
+  "tracker_path": "./sample_data/Master_Tracker_Template.xlsx",
+  "team_size": 4,
+  "log_level": "INFO"
+}
